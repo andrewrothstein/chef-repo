@@ -9,6 +9,6 @@
 #
 %w[emacs].each do |pkg|
   package pkg do
-    action :purge
+    action :install
     end
 end
