@@ -1,0 +1,14 @@
+#
+# Cookbook Name:: devtools-editors::emacs
+# Recipe:: Recipe to install emacs from packages
+# but not limited to emacs, vim
+#
+# Copyright 2013, Andrew Rothstein, BlackRock
+#
+# All rights reserved - Do Not Redistribute
+#
+%w[emacs].each do |pkg|
+  package pkg do
+    action :purge
+    end
+end
