@@ -6,5 +6,5 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-include_recipe "solr"
+include_recipe "devtools-search::solr"
 include_recipe "elasticsearch"
