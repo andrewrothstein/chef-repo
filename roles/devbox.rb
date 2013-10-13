@@ -4,4 +4,4 @@ run_list "recipe[apt]",
 "recipe[git]",
 "recipe[java]",
 "recipe[devtools-editors]",
-"recipe[solr]"
+"recipe[devtools-search]"

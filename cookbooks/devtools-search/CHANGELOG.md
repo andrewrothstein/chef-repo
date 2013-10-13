@@ -1,10 +1,10 @@
-# CHANGELOG for solr
+# CHANGELOG for devtools-search
 
-This file is used to list changes made in each version of solr.
+This file is used to list changes made in each version of devtools-search.
 
 ## 0.1.0:
 
-* Initial release of solr
+* Initial release of devtools-search
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
