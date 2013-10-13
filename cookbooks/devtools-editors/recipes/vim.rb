@@ -6,8 +6,8 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-%w[vim].each do |pkg|
+%w{vim}.each do |pkg|
   package pkg do
     action :install
-    end
+  end
 end

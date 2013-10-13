@@ -7,8 +7,8 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-%w[emacs].each do |pkg|
+%w{emacs}.each do |pkg|
   package pkg do
     action :install
-    end
+  end
 end

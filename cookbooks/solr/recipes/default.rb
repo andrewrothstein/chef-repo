@@ -7,8 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
-%w["solr-common", "solr-jetty"].each |pkg|
+%w{solr-common solr-jetty}.each do |pkg| 
   package pkg do
-  action :install
+    action :install
   end
 end
