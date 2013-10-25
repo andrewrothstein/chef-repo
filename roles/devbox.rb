@@ -5,4 +5,5 @@ run_list "recipe[apt]",
 "recipe[java]",
 "recipe[zookeeper]",
 "recipe[devtools-editors]",
-"recipe[devtools-search]"
+"recipe[devtools-search]",
+"recipe[devtools-compilers]"
