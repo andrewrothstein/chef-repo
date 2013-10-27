@@ -6,4 +6,5 @@ run_list "recipe[apt]",
 "recipe[zookeeper]",
 "recipe[devtools-editors]",
 "recipe[devtools-search]",
-"recipe[devtools-compilers]"
+"recipe[devtools-compilers]",
+"recipe[devtools-debuggers]"
