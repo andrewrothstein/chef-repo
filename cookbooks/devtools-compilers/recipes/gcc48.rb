@@ -1,5 +1,5 @@
 
-%w{gcc-4.8 g++-4.8 doxygen}.each do |pkg|
+%w{gcc-4.8 g++-4.8}.each do |pkg|
   package pkg do
     action :install
   end
